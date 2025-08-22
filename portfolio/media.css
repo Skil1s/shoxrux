@@ -1,0 +1,199 @@
+@media screen and (max-width: 708px) {
+  .navbar ul {
+    display: none;
+  }
+  .contener {
+    background-size: contain;
+    height: 30vh;
+  }
+  .contener h1 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0px;
+  }
+  .contener h3 {
+    display: none;
+  }
+  .contener button {
+    width: 200px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 25%;
+    margin-top: 100px;
+  }
+  .small-contener {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .contener3 h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-top: 100px;
+    font-size: 30px;
+  }
+  .contener3 h3 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .div {
+    width: 350px;
+  }
+  img {
+    width: 100%;
+  }
+  .contener5 {
+    background-size: contain;
+    height: 30vh;
+  }
+  .skills .skills-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills .skills-content .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .home .max-width {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .skills .skills-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills .skills-content .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1104px) {
+  .about .about-content .left img {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+  .home .home-content a {
+    font-size: 23px;
+    padding: 10px 30px;
+  }
+  .about .about-content .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 947px) {
+  .menu-btn {
+    z-index: 999;
+    display: block;
+  }
+  .menu-btn i {
+    color: white;
+  }
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.4s ease;
+  }
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+  .navbar .menu.active {
+    left: 0;
+  }
+  .navbar .menu li {
+    display: block;
+  }
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 25px 0px;
+    font-size: 25px;
+  }
+  .home .home-content .text-2 {
+    font-size: 70px;
+  }
+  .home .home-content .text-3 {
+    font-size: 35px;
+  }
+  .home .home-content a {
+    font-size: 20px;
+    padding: 10px 30px;
+  }
+  .about .about-content .column {
+    width: 50%;
+  }
+  .max-width {
+    max-width: 800px;
+  }
+  .contact .contact-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .contact-content .column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 939px) {
+  .about .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .about-content .column {
+    width: 100%;
+  }
+  .services .serv-content .card {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 697px) {
+  .about .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .about-content .column {
+    width: 100%;
+  }
+  .about .about-content .left img {
+    width: 500px;
+  }
+  .services .serv-content .card {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .about .about-content .left img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home .home-content .text-2 {
+    font-size: 50px;
+  }
+  .home .home-content .text-3 {
+    font-size: 27px;
+  }
+  .home .home-content a {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+}
